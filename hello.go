@@ -15,13 +15,13 @@ import (
 	"time"
 )
 
-func main() {
-	// s1()
-	// s2()
-	// s5()
-	// s6()
-	s7()
-}
+// func main() {
+// 	// s1()
+// 	// s2()
+// 	// s5()
+// 	// s6()
+// 	s7()
+// }
 
 // echos given name, and prints each call arg with index
 func s1() {
