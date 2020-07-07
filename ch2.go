@@ -7,10 +7,10 @@ import (
 	"strconv"
 )
 
-func main() {
-	// parse()
-	s3()
-}
+// func main() {
+// 	// parse()
+// 	s3()
+// }
 
 // parse arg to float, convert to C, display w/format
 func parse() {
