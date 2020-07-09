@@ -5,15 +5,14 @@ import (
 	"image"
 	"image/color"
 	"image/png"
-	"log"
 	"math/cmplx"
 	"net/http"
 )
 
-func main() {
-	http.HandleFunc("/mandelbrot", CreateMandelbrot)
-	log.Fatal(http.ListenAndServe(":8080", nil))
-}
+// func main() {
+// 	http.HandleFunc("/mandelbrot", CreateMandelbrot)
+// 	log.Fatal(http.ListenAndServe(":8080", nil))
+// }
 
 // CreateMandelbrot create and writes png mandelbrot img to client
 func CreateMandelbrot(w http.ResponseWriter, r *http.Request) {
